@@ -2,7 +2,7 @@ from pyrogram import Client, filters,enums,idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.enums import ChatAction, ParseMode
-import openai
+from MukeshAPI import api
 from pyrogram.types import CallbackQuery
 from config import *
 import os,sys,re,requests
